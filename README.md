@@ -1,22 +1,17 @@
-
 # You know me quiz
 
 It's a javascript based Nodejs project. It's a Quiz application which uses command line interface (CLI). The quiz is how much you know me.
 
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/badjatya/CLI-You-Know-Me-Quiz-Mark1/blob/master/img/Mark1.png)
 
-  
 ## Tech Used
 
 - NodeJs
 - Readline-sync
 - Chalk-cli
 
-
-  
 ## Run Locally
 
 Clone the project
@@ -43,9 +38,6 @@ Start the server
   npm run start
 ```
 
-  
 ## Feedback
 
 If you have any feedback, please reach out to me at [Twitter](https://twitter.com/ArchitBadjatya)
-
-  
