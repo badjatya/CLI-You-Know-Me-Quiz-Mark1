@@ -6,10 +6,10 @@ var userName = readlineSync.question(chalk.hex('#E5BA0D')("Whats Your Name? "));
 
 console.log("Welcome, " + userName.toUpperCase());
 
-var playCricket = readlineSync.question(chalk.hex('#E5BA0D')("DO you play cricket "));
+var youKnowArchit = readlineSync.question(chalk.hex('#E5BA0D')("DO you know Archit "));
 
 
-if (playCricket.toLowerCase() === "yes" ) {
+if (youKnowArchit.toLowerCase() === "yes" ) {
   console.log("Cool lets play the Game, " + userName.toUpperCase());
 }
 
@@ -17,7 +17,7 @@ if (playCricket.toLowerCase() === "yes" ) {
 console.log("---------");
 
 var highScore = {
-  name: "Rajesh",
+  name: "Aayush",
   score: 4,
 }
 
@@ -25,39 +25,39 @@ var highScore = {
 var score  = 0;
 
 var questionOne = {
-  question: "India won first one day World cup in which year? ",
-  options: ["(a) 1999" , "(b) 2011" , "(c) 1983" , "(d) 2007"],
-  answer: "c",
-  correctAnswer: "(c) 1983"
+  question: "Archit's favorite food? ",
+  options: ["(a) Burger" , "(b) Cheese Sanwich" , "(c) Pizza" , "(d) White Sauce Pasta"],
+  answer: "d",
+  correctAnswer: "(d) White Sauce Pasta"
   
 }
 
 var questionTwo = {
-  question: "Who captained India team in T20 World cup 2007? ",
-  options: ["(a) Virat Kohli" , "(b) Mahendra Singh Dhoni" , "(c) Rohit Sharma" , "(d) Rahul Dravid"],
-  answer: "b",
-  correctAnswer: "(b) Mahendra Singh Dhoni"
+  question: "Archit's favorite song? ",
+  options: ["(a) Friends" , "(b) Humraah" , "(c) This Feeling" , "(d) Brown Rang De"],
+  answer: "c",
+  correctAnswer: "(c) This Feeling"
 }
 
 var questionThree = {
-  question: "How many balls are there in an over? ",
-  options: ["(a) 5" , "(b) 10" , "(c) 8" , "(d) 6"],
-  answer: "d",
-  correctAnswer: "(d) 6"
+  question: "Archit's favorite Cartoon show? ",
+  options: ["(a) Tom And Jerry" , "(b) Phineas and Ferb" , "(c) Pokémon" , "(d) Dragon Ball Z"],
+  answer: "a",
+  correctAnswer: "(a) Tom And Jerry"
 }
 
 var questionFour = {
-  question: "World's biggest stadium in situated in which country? ",
-  options: ["(a) India" , "(b) Australia" , "(c) England" , "(d) New Zealand"],
-  answer: "a",
-  correctAnswer: "(d) India"
+  question: "Archit's favorite Book? ",
+  options: ["(a) Harry Potter and the Philosopher’s Stone" , "(b) Rich Dad Poor Dad" , "(c) The Lord of the Rings" , "(d) The Book Thief"],
+  answer: "b",
+  correctAnswer: "(d) The Book Thief"
 }
 
 var questionFive = {
-  question: "World's Test Championship is hosted by? ",
-  options: ["(a) India" , "(b) Australia" , "(c) England" , "(d) New Zealand"],
+  question: "Archit's favorite color? ",
+  options: ["(a) Black" , "(b) Yellow" , "(c) Olive Green" , "(d) Meteor Gray"],
   answer: "c",
-  correctAnswer: "(c) England"
+  correctAnswer: "(c) Olive Green"
 }
 
 var questions = [questionOne , questionTwo , questionThree , questionFour , questionFive];
@@ -87,7 +87,7 @@ function play (question , answer , option , correctAnswer) {
   }
 }
 
-if (playCricket.toLowerCase() === "yes" ) {
+if (youKnowArchit.toLowerCase() === "yes" ) {
   for (var i =0 ; i< questions.length ; i++) {
     var arrayQuestion = questions[i];
 
